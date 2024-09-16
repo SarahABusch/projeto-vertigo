@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
+
+:root {
+  --gray-800: #1E293B;
+}
+
  header {
     background-image: url(./imagens/bg-mobile/img@2x.png);
     background-size: cover;
@@ -11,4 +16,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3.7rem;
+ }
+
+ main {
+    padding-inline: 1.5rem;
+ }
+
+ .descricao h1 {
+    color: var(--gray-800);
  }
